@@ -1,0 +1,17 @@
+@import "../../css-config/mixins.scss";
+.header{
+    height: 80px;
+    background: #f9f9f9;
+    @include flex();
+    border-bottom: 1px solid #ddd;
+    .navbar{
+        @include flex();
+        justify-content: center;
+        h1{
+            font-size: 30px;
+            a{
+                color: #071c1f;
+            }
+        }
+    }
+}
